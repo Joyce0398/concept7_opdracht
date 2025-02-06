@@ -33,7 +33,7 @@ export const menuItems: string[] = [
 
  export const navbarItems = [
     { label: "Trainingen", hasDropdown: true,  isButton: false },
-    { label: "Kennisbank", hasDropdown: false, isButton: false },
+    { label: "Kennisbank", hasDropdown: true, isButton: false },
     { label: "Over ons", hasDropdown: false, isButton: false },
     { label: "Contact", hasDropdown: false, isButton: false },
     { label: "Inloggen", hasDropdown: false, isButton: false },

@@ -21,7 +21,7 @@ import {
 
 const Header: React.FC = () => {
   return (
-    <div className="w-ful flex flex-col bg-white">
+    <div className="w-full flex flex-col bg-white">
       <div className="bg-dark-purple bg-cover">
         <div className="px-6 lg:px-10">
           <Navbar navbarItems={navbarItems} />

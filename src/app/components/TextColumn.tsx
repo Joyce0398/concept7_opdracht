@@ -11,7 +11,7 @@ const ListSection: React.FC<ListSectionProps> = ({ title, items }) => (
     <span className="font-bold">{title}</span>
     {items.map((item) => (
       <div className="flex flex-row gap-2 text-sm" key={item}>
-        <FaCheck size={20} color="#3559FE" />
+        <FaCheck size={20} color="#3559FE" className="flex-shrink-0" />
         {item}
       </div>
     ))}
